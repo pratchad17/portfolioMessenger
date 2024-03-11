@@ -55,7 +55,7 @@ const Contact = () => {
                     </p>
                 </div>
                 <div className="flex flex-col md:flex-row justify-center pr-5">
-                    <div className="flex flex-col w-1/2 pt-8">
+                    <div className="flex flex-col md:w-1/2 pt-8">
                         <div>
                             <p className="text-3xl font-bold text-blue-200">
                                 Get in touch
@@ -90,7 +90,7 @@ const Contact = () => {
                     </div>
                     <form
                         onSubmit={handleSubmit}
-                        className="flex flex-col w-1/2 pt-24 "
+                        className="flex flex-col  md:w-1/2 pt-24 "
                     >
                         <p className="py-6 text-lg  text-blue-200">
                             Submit the form below to get in touch with me
